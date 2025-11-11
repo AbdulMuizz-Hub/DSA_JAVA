@@ -9,7 +9,7 @@ public class Linear_Search {
     }
     public static void main (String args[]){
         int numbers[] = {2, 4, 6, 8, 7, 10, 12};
-        int key = 10;
+        int key = 8;
         int index = linearsearch(numbers, key);
         if (index == -1){
             System.out.println("Not found");
