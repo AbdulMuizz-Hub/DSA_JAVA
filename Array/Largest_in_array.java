@@ -12,7 +12,7 @@ public class Largest_in_array {  // function to find largest number in array
     }
     public static void main(String[] args) {
     int numbers[] = {1,2,6,3,5};
-    System.out.println("Laregst value is " + getLargest(numbers));
+    System.out.println("Laregst value is " + getLargest(numbers));  // calling function 
     }    
     
 }
