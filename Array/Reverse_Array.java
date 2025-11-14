@@ -1,5 +1,5 @@
 public class Reverse_Array {
-    public static void reverse(int numbers[]){ 
+    public static void reverse(int numbers[]){ // reverse function
         int first = 0 ;
         int last = numbers.length-1 ;
 
