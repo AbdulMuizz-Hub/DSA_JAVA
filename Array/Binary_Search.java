@@ -1,12 +1,13 @@
 import java.util.*;
 public class Binary_Search { // function for binary search
     public static int binarySearch(int numbers[] , int key){
+
         int start = 0;
         int end = numbers.length-1;
 
         while (start <= end) {
             int mid = (start+end)/2;
-            if (numbers[mid] == key) {
+            if (numbers[mid] == key) {  
                 return mid ;
             }
             if(numbers[mid] < key ){
@@ -22,7 +23,7 @@ public class Binary_Search { // function for binary search
     public static void main(String[] args) {
         int numbers[] = {2,4,6,8,10,12,14,16,18,};
         int key = 12;
-        System.out.println(binarySearch(numbers, key));
+        System.out.println(binarySearch(numbers, key)); // function calling 
     }
     
 }
