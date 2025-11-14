@@ -1,6 +1,6 @@
 import java.util.*;
 public class Largest_in_array {
-    public static int getLargest(int numbers){
+    public static int getLargest(int numbers[]){
         int largest = Integer.MIN_VALUE;
         for(int i = 0 ; i < numbers.length; i++){
             if (largest < numbers[i]){
