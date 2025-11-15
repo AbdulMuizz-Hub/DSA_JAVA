@@ -1,4 +1,4 @@
-public class Pairs_in_java{
+public class Pairs_in_array{
     
     public static void printPairs(int numbers[]){ // pairs in array function
         int Total_pair = 0 ;
