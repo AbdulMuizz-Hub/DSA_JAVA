@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class Largest_in_array {  // function to find largest number in array
     public static int getLargest(int numbers[]){
         int largest = Integer.MIN_VALUE; // minus infinity
