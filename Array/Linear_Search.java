@@ -1,7 +1,7 @@
 public class Linear_Search {
     public static int linearsearch(int numbers[], int key){ // function for linear search
         for (int i = 0; i < numbers.length; i++){
-            if (numbers[i] == key){
+            if (numbers[i] == key){   // logic for linear search
                 return i;
             } 
         }
