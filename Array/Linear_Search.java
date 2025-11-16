@@ -1,5 +1,5 @@
 public class Linear_Search {
-    public static int linearsearch(int numbers[], int key){
+    public static int linearsearch(int numbers[], int key){ // function for linear search
         for (int i = 0; i < numbers.length; i++){
             if (numbers[i] == key){
                 return i;
@@ -10,7 +10,7 @@ public class Linear_Search {
     public static void main (String args[]){
         int numbers[] = {2, 4, 6, 8, 7, 10, 12};
         int key = 8;
-        int index = linearsearch(numbers, key);
+        int index = linearsearch(numbers, key); // calling function
         if (index == -1){
             System.out.println("Not found");
         }else {
