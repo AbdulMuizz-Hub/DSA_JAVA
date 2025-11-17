@@ -13,7 +13,7 @@ public class printSubarray {
     }
     public static void main (String args[]){
         int numbers[] = {2,4,6,8,10};
-        printSubarrays(numbers);
+        printSubarrays(numbers); // calling printSubarrays function
 
     }
 }
