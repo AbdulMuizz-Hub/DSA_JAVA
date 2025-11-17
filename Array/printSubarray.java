@@ -1,10 +1,10 @@
 public class printSubarray {
 
-    public static void printSubarrays(int numbers[]){
+    public static void printSubarrays(int numbers[]){     // function to print subarrays 
         for (int i = 0; i < numbers.length; i++){
             for (int j = 0 ; j < numbers.length; j++){
                 for (int k = i ; k<=j; k++){
-                    System.out.print(numbers[k] + "");
+                    System.out.print(numbers[k] + "");  // loop for print subarrays
                 }
                 System.out.println();
             }
