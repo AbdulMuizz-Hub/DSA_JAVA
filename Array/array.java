@@ -5,7 +5,7 @@ public class array{
         int marks[] = new int [50];
         Scanner sc = new Scanner (System.in); // takes a user input
 
-        marks[0] = sc.nextInt();
+        marks[0] = sc.nextInt();  // give input to array 
         marks[1] = sc.nextInt();
         marks[2] = sc.nextInt();
 
