@@ -21,9 +21,9 @@ public class Binary_Search { // function for binary search
     }
 
     public static void main(String[] args) {
-        int numbers[] = {2,4,6,8,10,12,14,16,18,};
+        int numbers[] = {2,4,6,8,10,12,14,16,18,}; // input value
         int key = 12;
-        System.out.println(binarySearch(numbers, key)); // function calling 
+        System.out.println(binarySearch(numbers, key)); // function calling in SOP
     }
     
 }
