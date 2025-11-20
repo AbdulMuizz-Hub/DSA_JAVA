@@ -1,9 +1,9 @@
 import java.util.*;
 
 public class array{
-    public static void main (String arg[]){
+    public static void main (String arg[]){  // main function
         int marks[] = new int [50];
-        Scanner sc = new Scanner (System.in);
+        Scanner sc = new Scanner (System.in); // takes a user input
 
         marks[0] = sc.nextInt();
         marks[1] = sc.nextInt();
