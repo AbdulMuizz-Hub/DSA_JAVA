@@ -12,9 +12,9 @@ public class Linear_Search {
         int key = 8;
         int index = linearsearch(numbers, key); // calling function
         if (index == -1){
-            System.out.println("Not found");
+            System.out.println("Not found");  // print for not found 
         }else {
-            System.out.println("Key found at index " + index);
+            System.out.println("Key found at index " + index); // print for found
         }
     }
 }
