@@ -6,7 +6,7 @@ public class maxSubarraySum {
         int maxSum = Integer.MIN_VALUE;
         int start = 0 , end = 0;
 
-        for (int i = 0; i < numbers.length; i++){
+        for (int i = 0; i < numbers.length; i++){         // logic for prefix sum appproach
             for (int j = i ; j < numbers.length; j++){
                 currSum = 0;
                 for (int k = i ; k<=j; k++){
