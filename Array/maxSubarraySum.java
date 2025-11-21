@@ -99,7 +99,7 @@ public class maxSubarraySum {
     }
     public static void main (String args[]){
         int numbers[] = {-2,-3,4,-1,-2,1,5,-3};
-        kadanes(numbers);  // calling function
+        kadanes(numbers);  // calling kadanes function
 
     }
 }
