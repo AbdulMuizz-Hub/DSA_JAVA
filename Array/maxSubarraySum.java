@@ -1,7 +1,7 @@
 import java.util.*;
 public class maxSubarraySum {
 
-    public static int maxSubarraySum(int numbers[]){      // function for maxSubarraysum
+    public static int maxSubarraySum(int numbers[]){      // function for maxSubarraysum by prefix sum
         int currSum = 0;
         int maxSum = Integer.MIN_VALUE;
         int start = 0 , end = 0;
