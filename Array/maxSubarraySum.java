@@ -49,7 +49,7 @@ public class maxSubarraySum {
         return maxSum; // Returning maxSum is more typical than returning 0
     }
         
-    public static void kadanes(int numbers[]){
+    public static void kadanes(int numbers[]){  // function for kadanes algo
         int ms = Integer.MIN_VALUE;
         int cs = 0;
         int currentStart = 0; 
