@@ -89,7 +89,7 @@ public class maxSubarraySum {
         System.out.println("Maximum subarray sum = " + ms);
         
         System.out.print("The max subarray is: {");
-        for (int k = maximumStart; k <= maximumEnd; k++) {  // printing loop
+        for (int k = maximumStart; k <= maximumEnd; k++) {  // printing loop for subarrays
             System.out.print(numbers[k]);
             if (k < maximumEnd) {
                 System.out.print(", ");
