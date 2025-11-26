@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Palindrome {
-    public static boolean isPalindrome(int x) {
+    public static boolean isPalindrome(int x) {  // creating a palindrome function
         if (x < 0 || (x % 10 == 0 && x != 0)) {
             return false;
         }
