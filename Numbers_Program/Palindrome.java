@@ -19,6 +19,6 @@ public class Palindrome {
         Scanner sc = new Scanner(System.in);
 
         int x = sc.nextInt ();
-        System.out.print(isPalindrome(x));  // ✅ Now works fine
+        System.out.print(isPalindrome(x));  // calling palindrome function
     }
 }
