@@ -1,6 +1,6 @@
 import java.util.*;
 public class reverse_integer {
-     public static int reverse(int x) {
+     public static int reverse(int x) { // creating function for reverse integer
         int reversed = 0;
 
         while (x != 0) {
