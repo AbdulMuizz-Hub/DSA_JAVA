@@ -16,7 +16,7 @@ public class reverse_integer {
        Scanner sc = new Scanner (System.in);
 
        int n = sc.nextInt();
-       System.out.println(reverse(n));
+       System.out.println(reverse(n));  // calling a reverese integer function 
 
 
 
