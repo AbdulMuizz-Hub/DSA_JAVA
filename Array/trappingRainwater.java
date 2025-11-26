@@ -1,5 +1,5 @@
 public class trappingRainwater {
-    public static int trap(int[] height) { // 
+    public static int trap(int[] height) { // creating function for trapped water
         int n = height.length;
 
         int leftMax[] = new int [n];
