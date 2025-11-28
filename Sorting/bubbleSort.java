@@ -1,6 +1,6 @@
 import java.util.*;
-public class bubbleSort {
-    public static void bubbleSorting(int arr[]){
+public class bubbleSort {    
+    public static void bubbleSorting(int arr[]){  // bubble sort function
         for(int turn=0; turn<arr.length-1; turn++){
             for(int j=0; j<arr.length-1-turn; j++){
                 if(arr[j] > arr[j+1]){
