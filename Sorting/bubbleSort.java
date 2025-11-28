@@ -22,7 +22,7 @@ public class bubbleSort {
     // main function 
     public static void main (String args[]){
         int arr[] = {5,4,1,3,2};
-        bubbleSorting(arr);
-        printArr(arr);
+        bubbleSorting(arr); // calling bibble sort function
+        printArr(arr); // calling printing array function
     }
 }
