@@ -7,8 +7,8 @@ public class Palindrome {
         }
 
         int reverted = 0;
-        while (x > reverted) {
-            reverted = reverted * 10 + x % 10;
+        while (x > reverted) {              
+            reverted = reverted * 10 + x % 10;  // reverse logic
             x /= 10;
         }
 
