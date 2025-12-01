@@ -2,7 +2,7 @@ import java.util.*;
 
 public class selectionSort {
 
-    public static void SelectionSort(int arr[]){
+    public static void SelectionSort(int arr[]){  // selection sort function
         for(int i=0; i<arr.length; i++){
             int minPos = i;
             for(int j=i+1; j<arr.length; j++){
@@ -10,7 +10,7 @@ public class selectionSort {
                     minPos = j ;
                 }
             }
-            int temp = arr[minPos];
+            int temp = arr[minPos]; // swap positions
             arr[minPos] = arr[i];
             arr[i] = temp;
         }
