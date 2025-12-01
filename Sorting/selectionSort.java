@@ -26,6 +26,6 @@ public class selectionSort {
     public static void main(String[] args) {
         int arr[] = {5,4,1,3,2};
         SelectionSort(arr); // calling selection sort
-        printArray(arr);
+        printArray(arr); // calling printing function
     }
 }
