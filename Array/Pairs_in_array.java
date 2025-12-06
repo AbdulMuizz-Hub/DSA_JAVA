@@ -10,7 +10,7 @@ public class Pairs_in_array{
             }
             System.out.println();
         }
-        System.out.println("Total Number of pairs = " + Total_pair); // print total pairs
+        System.out.println("Total Number of pairs = " + Total_pair); // print total pairs of arrays
 
     }
     
